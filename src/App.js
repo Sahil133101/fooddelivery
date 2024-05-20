@@ -1,8 +1,9 @@
 import React from 'react';
+import { Header } from './Component/Header';
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-900 justify-center flex items-center w-screen h-screen">
-      Hello world!
-    </h1>
+<div className='w-screen h-auto flex flex-col'>
+<Header/>
+</div>
   )
 }

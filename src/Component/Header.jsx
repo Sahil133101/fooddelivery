@@ -13,17 +13,17 @@ export const Header = () => {
 
         </div>
 
-        <ul className='flex items-center gap-8'>
-          <li>
+        <ul className='flex items-center gap-8 ml-auto'>
+          <li className='text-base text-textcolor hover:text-headingColor duration-100 transtion-all ease-in-out cursor-pointer'>
             Home 
           </li>
-          <li>
+          <li className='text base text-textcolor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>
             Menu
             </li>
-            <li>
+            <li className='text base text-textcolor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>
               About Us
               </li>
-              <li>
+              <li className='text base truncate text-textcolor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>
                  Sevice
               </li>
 

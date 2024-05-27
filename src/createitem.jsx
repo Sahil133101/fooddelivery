@@ -1,9 +1,9 @@
 import React from 'react'
 
-const createitem = () => {
+const Createitem = () => {
   return (
-    <div>createitem</div>
+    <div>chii</div>
   )
 }
 
-export default createitem 
+export default Createitem
